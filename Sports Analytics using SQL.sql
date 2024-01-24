@@ -226,3 +226,58 @@ WHERE r_num > 1;
 SELECT *
 FROM ipl_ball05
 WHERE ball_id IN (SELECT ball_id FROM ipl_ball05 WHERE r_num > 1);
+
+
+Project details:-
+**Sports Analytics using SQL - Final Project**
+
+As a sports analyst, successfully completed a comprehensive project on IPL cricket matches using SQL. The project involved two datasets: ball-by-ball data and match-wise data. Achievements and tasks accomplished include:
+
+1. **Table Creation:**
+   - Created 'IPL_matches' and 'IPL_Ball' tables with appropriate data types for columns.
+
+2. **Data Import:**
+   - Imported data from 'IPL_matches.csv' to the 'IPL_matches' table.
+   - Imported data from 'IPL_Ball.csv' to the 'IPL_Ball' table.
+
+3. **Data Exploration:**
+   - Selected and displayed the top 20 rows of 'IPL_Ball' after ordering by various criteria.
+   - Displayed the top 20 rows of the 'IPL_Ball' table.
+
+4. **Data Retrieval:**
+   - Fetched data for all matches played on 2nd May 2013.
+   - Retrieved data for matches where the result mode is 'runs' and the margin of victory is over 100 runs.
+   - Fetched data for matches with tied final scores, ordered by date.
+
+5. **Statistical Insights:**
+   - Obtained the count of cities hosting IPL matches.
+   - Created 'IPL_Ball02' table with an additional column indicating ball results 
+       (boundary, dot, or other).
+   - Fetched total boundaries and dot balls from 'IPL_Ball02'.
+   - Retrieved total boundaries scored by each team, ordered by the number of boundaries.
+   - Fetched total dot balls bowled by each team, ordered by the number of dot balls.
+
+6. **Player Performance Analysis:**
+   - Obtained the total number of dismissals by dismissal kinds.
+   - Identified the top 5 bowlers conceding the maximum extra runs.
+
+7. **Advanced Queries:**
+   - Created 'IPL_Ball03' with additional columns from the 'ipl_matches' table.
+   - Fetched total runs scored for each venue, ordered in descending order.
+   - Fetched year-wise total runs scored at Eden Gardens, ordered in descending order.
+   - Created 'matches_corrected' table with corrected team names.
+
+8. **Advanced Data Manipulation:**
+   - Created 'IPL_Ball04' with a formatted ball_id column.
+   - Compared total row count and distinct ball_id count in 'IPL_Ball04'.
+   - Created 'IPL_Ball05' with row numbers partitioned over ball_id.
+
+9. **Identifying Data Anomalies:**
+   - Used row numbers to identify instances of repeating ball_id.
+   - Employed subqueries to fetch data of repeating ball_id instances.
+10   **Business Impact:**
+- Enhanced strategic decision-making in sports management and improved overall team performance through 
+     data-driven insights and analytics.
+
+Successfully completed the project, showcasing proficiency in SQL, data manipulation, and statistical 
+analysis for sports analytics.
